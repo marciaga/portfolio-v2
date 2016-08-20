@@ -1,0 +1,15 @@
+{
+    "use": [
+        "autoprefixer",
+        "postcss-import"
+    ],
+    "autoprefixer": {
+        "browsers": "> 5%"
+    },
+    "postcss-import": {
+        "path": ["app", "node_modules"]
+    },
+    "local-plugins": true,
+    "input": "app/index.css",
+    "output": "build/main.css"
+}
