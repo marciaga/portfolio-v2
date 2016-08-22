@@ -1,10 +1,38 @@
-
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 300;
+}
+h3 {
+    font-family: 'Mate', serif;
+    color: #17E2CF;
+}
 h1 {
     font-family: 'Mate', serif;
+}
+
+.selfie {
+    background: url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/088/25f/25f43a5.jpg') center / cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 .mdl-layout-title {
     font-family: 'Lato', sans-serif;
 }
 .mdl-layout__header {
     background-color: #009688;
+}
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('http://lorempixel.com/500/200/') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
 }
